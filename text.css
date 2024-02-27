@@ -5,6 +5,8 @@ body {
 .navbar{
     background-color: aliceblue;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    padding-top: 0rem;
 }
 .navbar .nav-item {
     margin-right: 50px;
@@ -16,6 +18,8 @@ body {
 .navbar-brand img {
     width: 10px;
     height: 10px;
+    height: 90px; 
+    margin-left: 50px;
 }
 
 /* .nav-item::after {
@@ -26,9 +30,7 @@ body {
     content: none;
 } */
 
-.footer{
-    color: rgb(45, 41, 41);
-}
+
 ul.list-unstyled li {
     margin-top: 10px;
 }
@@ -36,3 +38,34 @@ ul.list-unstyled li {
 .list-unstyled a {
     text-decoration: none;
 }
+
+.nav-link {
+    color: rgb(44, 122, 96);
+}
+.images {
+    display: flex; 
+    height: 340px; 
+    margin-top: 140px;
+}
+
+.nav2{ 
+    height: 50px; 
+    background-color: rgb(61, 48, 128);
+}
+.nav2 .nav {
+    background-color: rgb(61, 48, 128); 
+    height: 50px; 
+    align-items: center;
+}
+
+.nav2 .nav-link{
+    color: #ffffff;
+}
+
+footer{
+    background-color: #2f2f2f; 
+    margin-top: 300px; 
+    margin-bottom: 0px; 
+    width: 100%;
+}
+
