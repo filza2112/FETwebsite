@@ -21,11 +21,12 @@ body {
     height: 90px; 
     margin-left: 50px;
 }
-
-/* .nav-item::after {
-    content: " | ";
-}
-
+/* .nav-item{
+    margin: 0px;
+    padding: ;
+    
+} */
+/*
 .nav-item:last-child::after {
     content: none;
 } */
